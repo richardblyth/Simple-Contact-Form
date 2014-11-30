@@ -1,0 +1,10 @@
+#Simple Contact Form
+This is a simple contact form I have developed to be re-used (**and styled!**) on projects.
+
+It is;
+
+* HTML5
+* Uses very simple jQuery validation
+* Uses PHP Mail to send
+
+I may continue to develop this project - but for the time being, please feel free to use!
