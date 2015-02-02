@@ -7,11 +7,11 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
     <style>
-      div.container {
+      .container {
         margin: 0 auto;
         width: 800px;
       }
-      div.message {
+      .message {
         border: 2px solid green;
         padding: 2em;
         display: none;
@@ -25,6 +25,10 @@
         margin: 0 0 2em 0;
         padding: 0;
         width: 100%;
+      }
+      .field-error {
+        background-color: red;
+        color: white;
       }
     </style>
   </head>
