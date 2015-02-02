@@ -12,28 +12,28 @@ $(function() {
 
     //If the name is empty
     if(enquiryname==''){
-      $('#enquiryname').css({'background-color':'#FAFFBD'});
+      $('#enquiryname').addClass('field-error');
 
       $("#enquiryname").click(function() {
-        $(this).animate({'background-color':'#FFFFFF'}, 500);
+        $(this).removeClass('field-error');
       });
     }
 
     //If the email is empty
     else if(enquiryemail==''){
-      $('#enquiryemail').css({'background-color':'#FAFFBD'});
+      $('#enquiryemail').addClass('field-error');
 
       $("#enquiryemail").click(function() {
-        $(this).animate({'background-color':'#FFFFFF'}, 500);
+        $(this).removeClass('field-error');
       });
     }        
 
     //If the message is empty
     else if(enquirymessage==''){
-      $('#enquirymessage').css({'background-color':'#FAFFBD'});
+      $('#enquirymessage').addClass('field-error');
 
       $("#enquirymessage").click(function() {
-        $(this).animate({'background-color':'#FFFFFF'}, 500);
+        $(this).removeClass('field-error');
       });
     }        		
 
